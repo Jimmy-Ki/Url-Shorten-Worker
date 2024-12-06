@@ -19,7 +19,7 @@ let res
     document.getElementById("searchbtn").disabled=false;
 	document.getElementById("searchbtn").innerHTML=' Shorten it';
     if(res.key!=="")
-    document.getElementById("result").innerHTML=window.location.origin+res.key;
+    document.getElementById("result").innerHTML="https://ccccccccccccccccccccccccccccccccccccccccc.cc"+res.key[1];
     $('#exampleModal').modal('show')
   }).catch(function(err){alert("Unknow error. Please retry!");
   console.log(err);
